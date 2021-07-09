@@ -172,3 +172,11 @@
   172  git commit -m 'README.mdの記述をマークダウン記法に修正'
   173  git push origin master
   174  history 300 > exec_command.log
+  175  git add exec_command.log
+  176  git commit -m 'README.mdの記述をマークダウン記法に修正に伴い内容追記'
+  177  git push origin master
+  178  vi README.md
+  179   git add exec_command.log
+  180  git add . 
+  181  git status
+  182  history 300 > exec_command.log
