@@ -1,0 +1,174 @@
+    1  cd ~
+    2  cd -
+    3  cd /c/Users/81805/Desktop/Gizumo/server_lesson/vagrant_test
+    4  cd .
+    5  cd..
+    6  cd ../
+    7  cd vagrant_test
+    8  cd ../
+    9  git init
+   10  touck first.txt
+   11  touch fitst.txt
+   12  git add .
+   13  git add .
+   14  git commi -m first commit
+   15  git commit -m first commit
+   16  git comit -m first comit
+   17  git status
+   18  cd /c/Users/81805/Desktop/Gizumo
+   19  mkdir server_lesson_linux
+   20  cd server_lesson_linux
+   21  mkdir server_lesson_linux && server_lesson_linux
+   22  git init
+   23  touch first.txt
+   24  git add .
+   25  git commit -m first commit
+   26  git commit -m 'first commit'
+   27  git add .
+   28  cd /c/Users/81805/Desktop/Gizumo/vagrant/server_lesson
+   29  git add .
+   30  git commit -m 'first commit'
+   31  cd /vagrant
+   32  cd vagrant
+   33  pwd
+   34  cd ~/vagrant
+   35  cd ../
+   36  mkdir -p server_lesson/linux_practice/public
+   37  ls server_lesson server_lesson/linux_practice
+   38  cd /vagrant
+   39  touch server_lesson/linux_practice/public/index.php
+   40  ls server_lesson/linux_practice/public
+   41  cd server_lesson && ls
+   42  cd linux_practice/public
+   43  cp index.php index_bk.php
+   44  ;s
+   45  ls
+   46  ls
+   47  cd ./
+   48  cd ../
+   49  cp -r public tmp
+   50  ls ./ public tmp
+   51  cd ../../
+   52  mv server_lesson/linux_practice server_lesson/linux_practice1
+   53  mkdir linux_practice2 linux_practice3
+   54  mv linux_practice2 server_lesson
+   55  ls server_lesson
+   56  ls vagrant
+   57  ls
+   58  cd server_lesson/linux_practice1/tmp
+   59  cd ./
+   60  cd server_lesson/linux_practice1/tmp
+   61  cd server_lesson/linux_practice1/tmp
+   62  rm *_bl.php
+   63  rm *_bk.php
+   64  ls
+   65  cd ../../../
+   66  rm server_lesson/first.txt
+   67  rm -r linux_practice3
+   68  ls server_lesson
+   69  ls
+   70  cd server_lesson
+   71  echo '# サーバーレッスン' > README.md
+   72  echo 'Linuxプラクティス' >> README.md
+   73  echo '-----------------' >> README.md
+   74  cat README.md
+   75  vi README.md
+   76  vi README.md
+   77  ls
+   78  git add .
+   79  git commit -m '課題1修了'
+   80  git remote -v
+   81  git remote add origin https://github.com/Usk0930/server_lesson.git
+   82  git remote -v
+   83  git push origin master
+   84  cd linux_practice2
+   85  mkdir documents
+   86  cd documents
+   87  touch gizumo{01..50}.md
+   88  ls
+   89  cd ../
+   90  mkdir trash
+   91  ls
+   92  mv documents/gizumo{20..40}.md trash/
+   93  ls
+   94  ls trash
+   95  mkdir .gitignore
+   96  rm -r .gitignore
+   97  touch .gitignore
+   98  git add .
+   99  git commit -m '課題2-3まで完了'
+  100  vi .gitignore
+  101  git rm --cached
+  102  cd ../
+  103  git rm --cached
+  104  git rm --cached linux_practice/documents/gizumo{20..29}.md
+  105  git rm --chached linux_practice2/documents/gizumo{20..29
+  106  git rm --cached linux_practice2/documents/gizumo{20..29}.md
+  107  git rm --cached linux_practice2/trash/gizumo{20..29}.md
+  108  git add .
+  109  git status
+  110  git commit -m '課題2-4まde
+  111  git commit -m '課題2-4まで修了'
+  112  git log
+  113  git diff
+  114  git diff
+  115  git push origin master
+  116  git reset --hard HEAD^
+  117  git reset --hard HEAD^
+  118  git status
+  119  git log
+  120  git add .
+  121  git status
+  122  git status --ignore
+  123  git status --ignored
+  124  cd ./linux_practice2
+  125  mkdir documents
+  126  cd documents
+  127  touch gizumo{01..50}md
+  128  cd ./
+  129  cd ../
+  130  mkdir trash && cd
+  131  cd -
+  132  cd trash
+  133  mv gizumo{20..40}.md trash
+  134  cd ..
+  135  mv documents/gizumo{20..40}.md trash
+  136  rm documents/gizumo{01..50}md
+  137  cd documents
+  138  touch gizumo{01..50}.md
+  139  cd ../
+  140  mv documents/gizumo{20..40}.md trash
+  141  touch .gitignore
+  142  vi .gitignore
+  143  git status --ignored
+  144  git add .gitignore
+  145  git status --ignored
+  146  git ls-files --other --ignored --exclude-standard
+  147  git ls-files --other --ignored --exclude-standard
+  148  git ls-files --other --ignored --exclude-standard
+  149  git add .
+  150  git status
+  151  git ls-files --other --ignored --exclude-standard
+  152  exec_command.log
+  153  history 300
+  154  echo history 300 >> exec_command.log
+  155  history 300 > exec_command.log
+  156  git commit -m '課題２まで終了'
+  157  git push origin master
+  158  git push origin master -f
+  159  git add exec_command.log
+  160  git commit -m '課題２まで終了、ログ提出'
+  161  git push origin master
+  162  vi READ.md
+  163  vi README.md
+  164  ls
+  165  cd ../
+  166  vi REAR
+  167  vi README.md
+  168  vi README.md
+  169  git add README.md exec_command.log
+  170  git add README.md exec_command.log
+  171  git add .
+  172  git commit -m 'README.mdの記述をマークダウン記法に修正'
+  173  git push origin master
+  174  history 300 > exec_command.log
